@@ -8,5 +8,7 @@ namespace WebApiTutorial.Interfaces
         Country GetCountry(int countryid);
         Country GetCountryOfAnOwner(int ownerId);
         bool CountryExists(int countryid);
+        bool CreateCountry(Country country);
+        bool Save();
     }
 }
